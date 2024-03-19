@@ -19,18 +19,23 @@
             <a class="nav-link active link-dark" href="advanced-search.html">Advanced</a>
 
         </nav>
-        <main class="container d-flex align-items-center">
-            <form class="container d-flex justify-content-center align-items-center flex-column">
+        <main class="container d-flex justify-content-center align-items-center flex-column">
+            <div class="my-3">
+                <a class="d-flex justify-content-center " href="https://www.google.com/search"><img src="img/google-logo.webp" class="w-50" alt="google logo"></a>
+            </div>
+            
+            <form action="https://www.google.com/search" method="get" class="container d-flex justify-content-center align-items-center flex-column">
                 
                 <div class="w-50">
                   
-                  <input type="text" class="form-control"  placeholder="Search">
+                  <input autofocus autocomplete="off" name="q" type="search" class="form-control"  placeholder="Search">
                 </div>
                 <div>
-                  <button type="submit" class="btn btn-primary mb-3 my-3">Search</button>
+                  <button type="submit" class="btn btn-primary my-3 bg-dark border-dark">Search</button>
                 </div>
             </form>
         </main>
+        
 
 
     </body>
